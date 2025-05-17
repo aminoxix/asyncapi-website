@@ -30,12 +30,17 @@ export interface Ambassador {
   githubUrl?: string;
   linkedinUrl?: string;
   twitterUrl?: string;
+  isTscMember?: boolean;
+  isBoardMember?: boolean;
+  isBoardChair?: boolean;
 };
 
 export interface Tsc {
   name: string;
   avatarUrl?: string;
   isTscMember: boolean;
+  isBoardMember?: boolean;
+  isBoardChair?: boolean;
   availableForHire?: boolean;
   github: string;
   linkedin?: string;
